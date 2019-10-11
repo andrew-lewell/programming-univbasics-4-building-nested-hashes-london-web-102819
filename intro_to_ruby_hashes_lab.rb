@@ -31,7 +31,12 @@ def monopoly_with_third_tier
         :three => 30,
         :four => 40
       },
-      :names => 0
+      :names => {
+        :first => 1,
+        :second => 2,
+        :third => 3, 
+        :fourth => 4
+      }
     }
     
   }
